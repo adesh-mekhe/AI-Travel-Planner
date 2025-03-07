@@ -1,0 +1,7 @@
+streamlit
+langchain
+langchain-google-genai
+google-generativeai
+pandas
+plotly
+requests
