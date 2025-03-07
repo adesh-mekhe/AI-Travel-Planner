@@ -11,12 +11,9 @@ import plotly.graph_objects as go
 from PIL import Image
 from io import BytesIO
 
-genai.configure(api_key=st.secrets["api_key"])
+genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 unsplash_api_key = st.secrets["unsplash_api_key"]
 
-
-# Initialize Gemini
-genai.configure(api_key=GEMINI_API_KEY)
 
 try:
     llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash-exp", google_api_key=GEMINI_API_KEY)
