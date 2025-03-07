@@ -11,7 +11,7 @@ import plotly.graph_objects as go
 from PIL import Image
 from io import BytesIO
 
-genai.configure(api_key=st.secrets["gemini_api_key"])
+genai.configure(api_key=st.secrets["api_key"])
 unsplash_api_key = st.secrets["unsplash_api_key"]
 
 
